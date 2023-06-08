@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Limelight&effect=outline">
+    <title>Kelly Lindsay Codes</title>
+  </head>
+  <body>
+    <canvas class="webgl"></canvas>
+    <nav>
+      <a href="../index.html" class="logo">kelly lindsay.</a>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="menu">
+        <li><a href="../index.html">home</a></li>
+        <li><a href="../public/about.html">about</a></li>
+        <li><a href="../assets/Kelly Lindsay Resume 2023.pdf" target="_blank">resume</a></li>
+        <li><a href="../public/projects.html">projects</a></li>
+        <li><a href="../public/contact.html">contact</a></li>
+      </ul>
+    </nav>
+
+
+    <section class="contact-container">
+      <div class="wrapper">
+
+          <h2><span>contact me.</span></h2>
+
+          <div class="form-container">
+
+              <form action="13" method="POST" enctype="multipart/form-data" name="contact-form">
+                  
+                  <label class="visually-hidden" for="name">Enter name</label>
+                  <input type="text" name="name" id="name" placeholder="Name" required tabindex="0">
+
+                  <label class="visually-hidden" for="email">Enter email</label>
+                  <input type="email" name="email" id="email" placeholder="Email" required tabindex="0">
+
+                  <label class="visually-hidden"
+                  for="message">Write a message</label>
+                  <textarea name="message" id="message" placeholder="Write a message" rows="6" cols="50" wrap="hard" required tabindex="0">
+                  </textarea>   
+
+                  <button type="submit" name="submit">submit.</button>
+
+              </form>
+          </div>
+
+          <ul class="socials"> 
+              <li>
+                  <a href="https://github.com/KellyLindsayCodes" 
+                  title= "Go to Kelly's Github">
+                  <span class="fab fa-github"></span>
+                  </a>
+              </li>
+  
+              <li>
+                  <a href="https://www.linkedin.com/in/kelly-lindsay/?originalSubdomain=au"
+                  title= "Kelly's LinkedIn">
+                  <span class="fab fa-linkedin"></span>
+                  </a>
+              </li>
+  
+              <li tabIndex="0">
+                  <a href="https://www.instagram.com/_living_like_lindsay"
+                  title="Go to Kelly's Instagram">
+                  <span class="fab fa-instagram"></span>
+                  </a>
+              </li>
+          </ul> 
+          </div>   
+      </section>
+
+
+
+
+
+
+    <footer>&copy; 2023 Kelly Lindsay. All rights reserved</footer>
+    <script type="module" src="/background.js"></script>
+  </body>
+</html>
